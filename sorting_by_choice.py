@@ -15,7 +15,7 @@ def main_sort(arr):
 
     return new_arr
 
-arr = [1,4,-5,8,2,15,99,3]
+arr = [125,43,67,16,27,89]
 
 print(arr)
 

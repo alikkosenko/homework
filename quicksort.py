@@ -8,7 +8,7 @@ def quicksort(nums):
 		greater = [i for i in nums[1:] if i > sup]
 		return quicksort(less) + [sup] + quicksort(greater)
 
-nums = [-5,1,12,4,2,8,3,9,-3,10]
+nums = [125,43,67,16,27,89]
 
 print(quicksort(nums))
 
